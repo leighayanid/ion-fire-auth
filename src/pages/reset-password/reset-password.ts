@@ -8,7 +8,9 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
  * on Ionic pages and navigation.
  */
 
-@IonicPage()
+@IonicPage({
+	name: 'reset-password'
+})
 @Component({
   selector: 'page-reset-password',
   templateUrl: 'reset-password.html',
