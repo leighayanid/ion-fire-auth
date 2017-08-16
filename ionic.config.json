@@ -1,5 +1,6 @@
 {
   "name": "MyEventManager",
-  "app_id": "",
-  "type": "ionic-angular"
+  "app_id": "79332954",
+  "type": "ionic-angular",
+  "integrations": {}
 }
