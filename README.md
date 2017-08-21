@@ -1,26 +1,28 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+This is an authentication starter template for Ionic projects using Firebase Authentication and Firebase Realtime Database
 
 ## How to use this template
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+To use this template, clone this repository and rename the project with your own project name. 
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+## How to run the project
 
-### With the Ionic CLI:
-
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
-```
-
-Then, to run it, cd into `myBlank` and run:
+1. Create a firebase account on [Firebase](https://firebase.google.com) official website.
+2. Create a new firebase project
+3. Change directory into your project, cd <yourProjectName>
+3. Copy and replace the application id inside your project's ionic.config.json
+4. Install the dependencies, run:
 
 ```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
+$ npm install
 ```
 
-Substitute ios for android if not on a Mac.
+5. Then, to run it, run:
+
+```bash
+$ ionic serve
+```
+
+### Credits:
+
+This project was based from Jorge Vergara's Ionic Firebase Book 3. Special shout out to this guy. 
 
